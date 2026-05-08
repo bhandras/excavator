@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Excavator MVP</title>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game" aria-label="Excavator game"></canvas>
+      <div class="hud" aria-live="polite">
+        <div class="hud__panel hud__panel--score">
+          <span>Moved</span>
+          <strong id="score">0 / 24</strong>
+        </div>
+        <div class="hud__panel hud__panel--task">
+          <span>Task</span>
+          <strong>Load the right pit</strong>
+        </div>
+        <div class="hud__panel hud__panel--controls">
+          <span>Drive <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></span>
+          <span>Cab <kbd>Q</kbd><kbd>E</kbd></span>
+          <span>Raise <kbd>R</kbd><kbd>F</kbd></span>
+          <span>Reach <kbd>T</kbd><kbd>G</kbd></span>
+          <span>Bucket <kbd>Y</kbd><kbd>H</kbd></span>
+          <span>Drop <kbd>Space</kbd></span>
+        </div>
+      </div>
+      <button id="reset" class="reset" type="button" aria-label="Reset cargo">Reset</button>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

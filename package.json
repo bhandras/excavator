@@ -1,0 +1,19 @@
+{
+  "name": "excavator-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.19.3",
+    "three": "^0.164.1",
+    "vite": "^8.0.11"
+  },
+  "devDependencies": {
+    "playwright": "^1.44.0"
+  }
+}
